@@ -3,3 +3,13 @@
 ################################################################################
 
 /CPPCodeProject/.vs/CPPCodeProject/v15
+*.licenseheader
+*.user
+*.filters
+*.obj
+*.exe
+*.tlog
+*.ilk
+*.log
+*.pdb
+*.idb
