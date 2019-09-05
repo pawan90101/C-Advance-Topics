@@ -11,4 +11,5 @@ Copyright (c)2019 Pawan90101@gmail.com
 
 #include<iostream>
 #include"Bitwise Examples/BitwiseClass.h"
+#include "PlacementNew/PlacementNew.h"
 using namespace std;

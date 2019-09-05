@@ -10,10 +10,12 @@ Copyright (c)2019 Pawan90101@gmail.com
 
 #include "IncludeAllHeaderOnce.h"
 
-int main(int args, char *argv[])
+/*int main(int args, char *argv[])
 {
 	CBitwise cb;
-	int msbset = cb.setBit(12,2);
-	cout << msbset;
+	int a = 10, b = 20;
+	cb.Swap(&a,&b);
+	cout << a<<":"<<b;
 	return 0;
 }
+*/

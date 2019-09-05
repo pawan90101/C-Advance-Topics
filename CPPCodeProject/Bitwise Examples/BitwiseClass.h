@@ -20,4 +20,11 @@ public:
 	int setBit(int num, int bitPosition); 
 	int clearBit(int num, int bitPosition);
 	int toggleBit(int num, int bitPosition);
+	int getHighestOrderBitSet(int num);
+	int getLowestOrderBitSet(int num);
+	int countSetBit(int num);
+	int countUnSetBit(int num);
+	int* decimalToBinary(int num);
+	void Swap(int *num1, int *num2);
+	bool isEven(int num);
 };

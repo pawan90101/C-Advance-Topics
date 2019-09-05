@@ -24,10 +24,12 @@
   <ItemGroup>
     <ClCompile Include="Bitwise Examples\BitwiseClass.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlacementNew\PlacementNew.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bitwise Examples\BitwiseClass.h" />
     <ClInclude Include="IncludeAllHeaderOnce.h" />
+    <ClInclude Include="PlacementNew\PlacementNew.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -95,7 +97,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
